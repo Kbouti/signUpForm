@@ -1,0 +1,9 @@
+body{
+    display:flex;
+    flex-direction:row;
+}
+
+#leftSide {
+    background-image: url(./images/hidayat-abisena--A2IuOZnmHs-unsplash.jpg);
+    background-size:cover;
+}
