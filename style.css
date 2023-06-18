@@ -37,6 +37,7 @@ body{
     width: 60vw;
     flex-shrink:1;
     flex-grow:1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #leftSide #photoCredit {
