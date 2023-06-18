@@ -56,4 +56,7 @@ height:min(60px, 40vh);
     font-family: 'Norse';
     color:white;
     display:inline;
+    position:relative;
+    top:8px;
+    left:3px;
 }
