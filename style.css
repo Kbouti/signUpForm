@@ -15,6 +15,7 @@ body{
     position:relative;
     flex-shrink:1;
     flex-grow:1;
+    justify-content: center;
     
 }
 
