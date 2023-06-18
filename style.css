@@ -1,7 +1,9 @@
 body{
     display:flex;
     flex-direction:row;
-    margin:0%
+    margin:0%;
+
+    /* font-family: 'Norse'; */
 }
 
 #leftSide {
@@ -29,4 +31,9 @@ align-self:center;
 justify-items:flex-end;
 position:absolute;
 bottom: 0;
+color:white;
+}
+
+#title{
+    font-family: 'Norse';
 }
