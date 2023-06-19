@@ -83,4 +83,10 @@ height:min(60px, 40vh);
     border-radius: 5px;
     font-size:16px;
     padding:2.5% 10%;
+
+    margin:30px 30px;
+}
+
+#loginPrompt{
+    margin: 0px 0px 0px 30px;
 }
