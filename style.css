@@ -4,6 +4,9 @@
 
 :root {
     --buttonColor: #596D48;
+    --inputBorder:#E5E7EB;
+    --focusBorder:rgb(21, 139, 250);
+
 }
 
 body{
@@ -110,6 +113,9 @@ height:min(60px, 40vh);
     flex-direction:column;
     margin-right:5%;
     margin-bottom:2%;
+    flex-grow:1;
+    position:relative;
+    width:200px;
 }
 
 
@@ -118,8 +124,15 @@ height:min(60px, 40vh);
 }
 
 #entrySection input{
-    width:min(300px, 20%vw);
+    width:min(400px, 20%vw);
+    border-color: var(--inputBorder);
+    border-radius: 5px;
     
+}
+
+#entrySection input:focus{
+    border-color: var(--focusBorder);
+    background-color:rgb(254, 204, 254);
 }
 
 a {
