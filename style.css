@@ -1,7 +1,12 @@
+*{
+    box-sizing:border-box;
+}   
+
 body{
     display:flex;
     flex-direction:row;
-    margin:0%;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -93,10 +98,18 @@ height:min(60px, 40vh);
 
 #entrySection{
     display:grid;
-    
 }
 
 .formEntry{
     display:flex;
     flex-direction:column;
+}
+
+
+#entrySection label{
+    font-size: 12px;
+}
+
+#entrySection input{
+    
 }
