@@ -108,6 +108,8 @@ height:min(60px, 40vh);
 .formEntry{
     display:flex;
     flex-direction:column;
+    margin-right:5%;
+    margin-bottom:2%;
 }
 
 
