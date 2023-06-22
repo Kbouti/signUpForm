@@ -2,6 +2,10 @@
     box-sizing:border-box;
 }   
 
+:root {
+    --buttonColor: #596D48;
+}
+
 body{
     display:flex;
     flex-direction:row;
@@ -83,7 +87,7 @@ height:min(60px, 40vh);
 }
 
 #submitButton{
-    background-color:#596D48;
+    background-color:var(--buttonColor);
     color:white;
     border-radius: 5px;
     font-size:16px;
@@ -111,5 +115,6 @@ height:min(60px, 40vh);
 }
 
 #entrySection input{
-    
+    width:min(300px, 20%vw);
+    ;
 }
