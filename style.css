@@ -101,7 +101,8 @@ height:min(60px, 40vh);
 }
 
 #entrySection{
-    display:grid;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .formEntry{
@@ -116,7 +117,7 @@ height:min(60px, 40vh);
 
 #entrySection input{
     width:min(300px, 20%vw);
-    ;
+    
 }
 
 a {
