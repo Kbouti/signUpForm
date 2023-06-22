@@ -90,3 +90,13 @@ height:min(60px, 40vh);
 #loginPrompt{
     margin: 0px 0px 0px 30px;
 }
+
+#entrySection{
+    display:grid;
+    
+}
+
+.formEntry{
+    display:flex;
+    flex-direction:column;
+}
