@@ -134,6 +134,7 @@ height:min(80px, 40vh);
 
 #entrySection input:focus{
     border-color: var(--focusBorder);
+    /* box-shadow: black 10px; */
 }
 
 #entrySection .error {
