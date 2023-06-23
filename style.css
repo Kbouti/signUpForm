@@ -79,7 +79,7 @@ height:min(80px, 40vh);
 
 #upperText{
     padding: 80px 60px 20px var(--leftMargin);
-    font-weight: 400;
+    font-weight: 500;
 
     font-size: 22px;
 }
@@ -124,6 +124,7 @@ height:min(80px, 40vh);
 }
 
 #entrySection input{
+    border: 2px solid;
     border-color: var(--inputBorder);
     border-radius: 5px;
     
@@ -131,7 +132,10 @@ height:min(80px, 40vh);
 
 #entrySection input:focus{
     border-color: var(--focusBorder);
-    background-color:rgb(254, 204, 254);
+}
+
+#entrySection .error {
+    border-color:rgb(251, 49, 49);
 }
 
 a {
