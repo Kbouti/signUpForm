@@ -97,6 +97,7 @@ height:min(80px, 40vh);
     font-size:16px;
     padding:2.5% 10%;
     margin:30px var(--leftMargin);
+    cursor:pointer;
 }
 
 #loginPrompt{
