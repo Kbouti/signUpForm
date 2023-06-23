@@ -6,6 +6,7 @@
     <title>Sign-Up Form</title>
 
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
@@ -36,17 +37,17 @@
                 <div id="entrySection">
                     <div class="formEntry">
                         <label for="firstName">FIRST NAME:</label>
-                        <input type="text" name="firstName" placeholder="John">
+                        <input type="text" required="required" name="firstName" placeholder="John">
                     </div>
 
                     <div class="formEntry">
                         <label for="lastName">LAST NAME:</label>
-                        <input type="text" name="lastName" placeholder="Smith">
+                        <input type="text" required="required" name="lastName" placeholder="Smith">
                     </div>
 
                     <div class="formEntry">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" placeholder="example@hotmail.com">
+                        <input type="email" required="required" name="email" placeholder="example@hotmail.com">
                     </div>
 
                     <div class="formEntry">
@@ -56,12 +57,12 @@
 
                     <div class="formEntry">
                         <label for="password">PASSWORD</label>
-                        <input class="error" type="text" name="password">
+                        <input class="error" type="text" required="required" name="password">
                     </div>
 
                     <div class="formEntry">
                         <label for="confirmPassword">CONFIRM PASSOWRD</label>
-                        <input class="error" type="text" name="confirmPassword">
+                        <input class="error" type="text" required="required" name="confirmPassword">
                     </div>
                 </div>
             </div>
