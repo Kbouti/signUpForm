@@ -7,3 +7,4 @@ const password2Field_input = document.getElementById("password2Field");
 
 const submitButton_button = document.getElementById("submitButton");
 const loginPrompt_link = document.getElementById("loginPrompt");
+
