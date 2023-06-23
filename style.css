@@ -21,7 +21,7 @@ body{
     background-image: url(./images/hidayat-abisena--A2IuOZnmHs-unsplash.jpg);
     background-size:cover;
     height: 100vh;
-    width: 40vh;
+    width: 40vw;
     display:flex;
     flex-direction:column;
     position:relative;
@@ -37,6 +37,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top:20vh;
+    height: 130px;
 }
 
 #title{
@@ -56,7 +57,7 @@ body{
     flex-shrink:1;
     flex-grow:1;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(228, 227, 227);
+    background-color:rgb(239, 236, 236);
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
@@ -85,13 +86,13 @@ height:min(80px, 40vh);
     left:3px;
 }
 #upperText{
-    padding: 50px 40px 0px 20px;
+    padding: 80px 60px 0px 20px;
     font-weight: 400;
 
 }
 #formBody{
     background-color: white;
-    padding: 10px 40px 10px 20px;
+    padding: 10px 60px 10px 20px;
     box-shadow:0px 5px 5px rgba(0, 0, 0, 0.118);
 }
 
