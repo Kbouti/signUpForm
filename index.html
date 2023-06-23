@@ -1,77 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up Form</title>
-
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-</head>
-<body>
-
-
-    <div id ="leftSide">
-        
-        <div id="titleBox">
-            <img src="./images/odinFace.png" alt="Odin logo" id="odinFace">
-            <p id="title">ODIN</p>
-        </div>
-        <div id = "photoCredit"> Photo by Hidayat Abisena on Unsplash </div>
-    </div>
-
-
-
-    <div id ="rightSide">
-        <div id="upperSection">
-            <div id="upperText">
-                <p>This is a sign-up page! The finest example of a sign-up page that your sorry ass ever did see. It's got a pretty long paragraph of text here just because we think that might look cool. </p>
-                <p>Partially <em>italicized</em> action statement.</p> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-Up Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div id ="leftSide">
+            <div id="titleBox">
+                <img src="./images/odinFace.png" alt="Odin logo" id="odinFace">
+                <p id="title">ODIN</p>
             </div>
+            <div id = "photoCredit"> Photo by Hidayat Abisena on Unsplash </div>
         </div>
-    <form action="/" method="get" id="mainForm">
-            <div id="formBody">
-
-                <h4 id="actionStatement">Let's do this!</h4>
-
-                <div id="entrySection">
-                    <div class="formEntry">
-                        <label for="firstName">FIRST NAME:</label>
-                        <input type="text" required="required" name="firstName" placeholder="John">
-                    </div>
-
-                    <div class="formEntry">
-                        <label for="lastName">LAST NAME:</label>
-                        <input type="text" required="required" name="lastName" placeholder="Smith">
-                    </div>
-
-                    <div class="formEntry">
-                        <label for="email">EMAIL</label>
-                        <input type="email" required="required" name="email" placeholder="example@hotmail.com">
-                    </div>
-
-                    <div class="formEntry">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" name="phone" placeholder="555-865-5309">
-                    </div>
-
-                    <div class="formEntry">
-                        <label for="password">PASSWORD</label>
-                        <input class="error" type="text" required="required" name="password">
-                    </div>
-
-                    <div class="formEntry">
-                        <label for="confirmPassword">CONFIRM PASSOWRD</label>
-                        <input class="error" type="text" required="required" name="confirmPassword">
-                    </div>
+        <div id ="rightSide">
+            <div id="upperSection">
+                <div id="upperText">
+                    <p>This is a sign-up page! The finest example of a sign-up page that your sorry ass ever did see. It's got a pretty long paragraph of text here just because we think that might look cool. </p>
+                    <p>Partially <em>italicized</em> action statement.</p> 
                 </div>
             </div>
-
-            <button type="submit" id="submitButton">Create Account</button>
-
-
-        </form>
-        <p id="loginPrompt">Already have an account? <a href="">Log in</a></p>
-    </div>
-</body>
+            <form action="/" method="get" id="mainForm">
+                <div id="formBody">
+                    <h4 id="actionStatement">Let's do this!</h4>
+                    <div id="entrySection">
+                        <div class="formEntry">
+                            <label for="firstName">FIRST NAME:</label>
+                            <input type="text" required="required" name="firstName" placeholder="John">
+                        </div>
+                        <div class="formEntry">
+                            <label for="lastName">LAST NAME:</label>
+                            <input type="text" required="required" name="lastName" placeholder="Smith">
+                        </div>
+                        <div class="formEntry">
+                            <label for="email">EMAIL</label>
+                            <input type="email" required="required" name="email" placeholder="example@hotmail.com">
+                        </div>
+                        <div class="formEntry">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phone" placeholder="555-865-5309">
+                        </div>
+                        <div class="formEntry">
+                            <label for="password">PASSWORD</label>
+                            <input class="error" type="text" required="required" name="password">
+                        </div>
+                        <div class="formEntry">
+                            <label for="confirmPassword">CONFIRM PASSOWRD</label>
+                            <input class="error" type="text" required="required" name="confirmPassword">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="submitButton">Create Account</button>
+            </form>
+            <p id="loginPrompt">Already have an account? <a href="">Log in</a></p>
+        </div>
+    </body>
 </html>
