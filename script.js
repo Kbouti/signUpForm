@@ -8,5 +8,3 @@ const submitButton_button = document.getElementById("submitButton");
 const loginPrompt_link = document.getElementById("loginPrompt");
 
 const mainForm_form = document.getElementById("mainForm")
-
-
