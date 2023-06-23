@@ -40,7 +40,7 @@ body{
 }
 
 #title{
-    font-size: 50px;
+    font-size: 70px;
     /* font-size: min(50px, 40vh); */
 }
 
@@ -72,7 +72,7 @@ color:white;
 }
 
 #odinFace{
-height:min(60px, 40vh);
+height:min(80px, 40vh);
 /* max-width: 10vh; */
 }
 
